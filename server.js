@@ -17,5 +17,5 @@ application.listen(PORT, () => {
   console.log("localhost has begun listening to requests on:[" + PORT + "]")})
 
 //used to route requests
-application.use("/", require("./static/path/to/router"))
-application.use("/handle", require("./static/path/to/router"))
+application.use("/", require("./static/root/roothandler"))
+application.use("/handle", require("./static/path/to/handler"))
