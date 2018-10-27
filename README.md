@@ -8,6 +8,11 @@ This is the default source code for a bare-bones express server running on node.
   * Install NPM
 * [Installation](#installation)
 * [Built With](#built-with)
+  * Express
+  * Morgan
+  * Path
+* [Authors](#authors)
+  * Gurvinder Singh
 * [License](#license)
 
 ### Getting Started
@@ -29,6 +34,9 @@ These instructions will get you a copy of the project up and running on your loc
 * [Express](https://expressjs.com/) - The web framework used.
 * [Morgan](https://rometools.github.io/rome/) - HTTP request logger middleware function.
 * [Path](https://nodejs.org/api/path.html) - Provides utilities for working with file and directory paths.
+
+### Authors ###
+Gurvinder Singh - [tubbyyyy](https://github.com/tubbyyyy)
 
 ### License ###
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
