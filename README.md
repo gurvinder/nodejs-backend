@@ -36,7 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Path](https://nodejs.org/api/path.html) - Provides utilities for working with file and directory paths.
 
 ### Authors ###
-Gurvinder Singh - [tubbyyyy](https://github.com/tubbyyyy)
+* [Gurvinder Singh](https://github.com/tubbyyyy)
 
 ### License ###
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
