@@ -1,7 +1,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width=400 height=200> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width=450 height=150>
 
 ## Setting up an express server using node.js ##
-This is the default source code for a bare-bones express server running on node.js as written by Gurvinder Singh. This code was written for the proposes of providing a basic template to allow simple plug & play usage and easy scaleability for adding multiple webpages for routing REST requests. This code will be changed for various reasons including but not limited to adding/deleting routes, modules, etc.
+This is the default source code for a bare-bones express server running on node.js. This code was written for the proposes of providing a basic template to allow simple plug & play usage and easy scaleability for adding multiple webpages for routing REST requests. This code will be changed for various reasons including but not limited to adding/deleting routes, modules, etc.
 
 * [Getting Started](#getting-started)
   * Main Application File
@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
   * [Local Development Server](https://nodejs.org/en/docs/guides/getting-started-guide/)
     * run the `npm run dev` command from the directory that contains your servers main application file.
       * Optional: after the `npm run dev` command, type a port # to host off of.
-    * In your preferred web browser, go to http://localhost:8080.
+    * In your preferred web browser, go to http://localhost:PORT.
 
 ### Built With ###
 * [Express](https://expressjs.com/) - The web framework used.
@@ -49,7 +49,5 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### License ###
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
-
 - - - -
-
 _a project by [Gurvinder Singh](https://github.com/tubbyyyy)_
