@@ -10,11 +10,13 @@ application.use(morgan('dev')) //used to instantiate & define log type
 
 application.use(favicon(path.join(__dirname, '/static', 'favicon.png'))) //used to display tab icon
 
-const PORT = 1234 //used to define global localhost port
+let PORT = 8080 //used to define global localhost port
 
+if(process.argv.length > 2){PORT = process.argv[2]}
 //implimenting a listener on localhost PORT
+
 application.listen(PORT, () => {
-  console.log("localhost has begun listening to requests on:[" + PORT + "]")})
+    console.log("localhost has begun listening to requests on:[" + PORT + "]")})
 
 //used to route requests
 application.use("/", require("./static/root/roothandler"))
