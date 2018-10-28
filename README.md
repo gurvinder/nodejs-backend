@@ -4,13 +4,13 @@
 This is the default source code for a bare-bones express server running on node.js as written by Gurvinder Singh. This code was written for the proposes of providing a basic template to allow simple plug & play usage and easy scaleability for adding multiple webpages for routing REST requests. This code will be changed for various reasons including but not limited to adding/deleting routes, modules, etc.
 
 * [Getting Started](#getting-started)
+  * Main Application File
+  * Routing
+    * Static Files
 * [Prerequisites](#prerequisites)
   * Install Node.js
   * Install NPM
 * [Installation](#installation)
-  * Main Application File
-  * Routing
-    * Static Files
 * [Built With](#built-with)
   * Express
   * Morgan
