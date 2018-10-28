@@ -8,7 +8,7 @@ const application = express() //used to create an application instance
 
 application.use(morgan('dev')) //used to instantiate & define log type
 
-application.use(favicon(path.join(__dirname, '/static', 'favicon.png'))) //used to display tab icon
+//application.use(favicon(path.join(__dirname, '/static', 'favicon.png'))) //used to display tab icon if needed
 
 let PORT = 8080 //used to define global localhost port
 if(process.argv.length > 2){PORT = process.argv[2]} //checks if a port # was passed as a cmd-line arg
