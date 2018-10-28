@@ -18,4 +18,4 @@ application.listen(PORT, () => { //implimenting a listener on localhost PORT
 
 //used to route requests
 application.use("/", require("./static/root/roothandler"))
-application.use("/handle", require("./static/path/to/handler"))
+//application.use("/handler", require("./static/path/to/handler")) //example of addition of new routing file
