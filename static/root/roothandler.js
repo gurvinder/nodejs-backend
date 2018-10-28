@@ -3,7 +3,7 @@ const path = require('path') //used for rendering web pages to client
 
 const handler = express.Router() //used to route specific request types
 
-handler.use(express.static("./static/root")) //used to allow use of all static file for game
+handler.use(express.static("./static/root")) //used to allow use of all static files
 
 handler.get("/", (request, response) => {
   response.sendFile(path.join(__dirname, "root.html"))})
