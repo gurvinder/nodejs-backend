@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": { "dev": "nodemon server.js" },
   "repository": { "type": "git", "url": "https://github.com/tubbyyyy/nodejs-backend.git" },
+  "homepage": "https://github.com/tubbyyyy/nodejs-backend#readme",
   "author": "Gurvinder Singh",
   "license": "MIT",
   "dependencies": {
