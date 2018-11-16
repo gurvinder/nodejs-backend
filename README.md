@@ -48,6 +48,6 @@ These instructions will get you a copy of the project up and running on your loc
 * [Serve-Favicon](https://www.npmjs.com/package/serve-favicon) - Middleware for serving a favicon.
 
 ### License ###
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 - - - -
 _a project by [Gurvinder Singh](https://github.com/tubbyyyy)_
