@@ -1,5 +1,6 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width=400 height=200> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width=450 height=150>
 
+[![npm version](https://badge.fury.io/js/express.svg)](https://badge.fury.io/js/express) [![npm version](https://badge.fury.io/js/morgan.svg)](https://badge.fury.io/js/morgan) [![npm version](https://badge.fury.io/js/path.svg)](https://badge.fury.io/js/path) [![npm version](https://badge.fury.io/js/nodemon.svg)](https://badge.fury.io/js/nodemon) [![npm version](https://badge.fury.io/js/serve-favicon.svg)](https://badge.fury.io/js/serve-favicon)
 ## Setting up an express server using node.js ##
 This is the default source code for a bare-bones express server running on node.js. This code was written for the proposes of providing a basic template to allow simple plug & play usage and easy scaleability for adding multiple webpages for routing REST requests. This code will be changed for various reasons including but not limited to adding/deleting routes, modules, etc.
 
