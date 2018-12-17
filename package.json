@@ -6,8 +6,14 @@
   "scripts": { "dev": "nodemon server.js" },
   "repository": { "type": "git", "url": "https://github.com/tubbyyyy/nodejs-backend.git" },
   "homepage": "https://github.com/tubbyyyy/nodejs-backend#readme",
-  "author": "Gurvinder Singh",
+  "author": {
+    "name": "Gurvinder Singh",
+    "email": "gs467@njit.edu",
+    "url": "https://github.com/tubbyyyy"},
   "license": "MIT",
+  "engines": {
+    "node": ">= 6.11.3",
+    "npm": ">= 6.4.1"},
   "dependencies": {
     "express": "^4.16.3",
     "morgan": "^1.9.1",
